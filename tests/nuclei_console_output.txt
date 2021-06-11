@@ -1,0 +1,1 @@
+[[36m2021-06-07 12:54:47[0m] [[92mapache-version-detect[0m] [[94mhttp[0m] [[34minfo[0m] http://server.ispa.cnr.it/ [[96mApache/2.4.7 (Ubuntu)[0m]

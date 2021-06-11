@@ -1,6 +1,8 @@
 hive-nuclei
 ===================
 
+![logo](https://hive-nuclei.github.io/images/logo.jpeg) 
+
 [![Site][site-label]][site-link]
 [![Required OS][os-label]][os-link]
 [![Python3 version][python3-versions-label]][python3-versions-link]

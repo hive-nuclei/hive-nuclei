@@ -16,7 +16,7 @@ __author__ = "Vladimir Ivanov"
 __copyright__ = "Copyright 2021, Hive Nuclei connector"
 __credits__ = [""]
 __license__ = "MIT"
-__version__ = "0.0.1b1"
+__version__ = "0.0.1"
 __maintainer__ = "Vladimir Ivanov"
 __email__ = "ivanov.vladimir.mail@gmail.com"
 __status__ = "Development"
@@ -24,9 +24,9 @@ __status__ = "Development"
 
 @dataclass
 class HiveVariables:
-    server: str = "http://127.0.0.1:8080"
-    username: str = "root@ro.ot"
-    password: str = "root123"
+    server: Optional[str] = None
+    username: Optional[str] = None
+    password: Optional[str] = None
     cookie: Optional[str] = None
     proxy: Optional[str] = "http://127.0.0.1:8081"
 

@@ -128,3 +128,7 @@ git clone https://github.com/hive-nuclei/hive-nuclei.git
 cd hive-nuclei
 python3 setup.py install
 ```
+
+## Demo
+
+[![demo video](https://hive-nuclei.github.io/images/demo.gif)](https://youtu.be/TJb65O_pe2c)

@@ -1,6 +1,5 @@
 #!/bin/sh
 rm -rf dist/
-rm -rf libmsf.egg-info/
-python3 setup.py sdist
-pip3 wheel --no-index --no-deps --wheel-dir dist dist/*.tar.gz
-python3 -m twine upload --repository pypi dist/*
+rm -rf hive_nuclei.egg-info/
+python3.7 setup.py bdist_wheel
+python3.7 -m twine upload --repository pypi dist/*

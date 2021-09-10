@@ -28,7 +28,7 @@ class HiveVariables:
     username: Optional[str] = None
     password: Optional[str] = None
     cookie: Optional[str] = None
-    proxy: Optional[str] = "http://127.0.0.1:8081"
+    proxy: Optional[str] = "http://127.0.0.1:8888"
 
     project: HiveLibrary.Project = HiveLibrary.Project(
         name="test_project",

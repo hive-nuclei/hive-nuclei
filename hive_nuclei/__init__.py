@@ -347,6 +347,8 @@ class HiveNuclei:
                                 host_address = ip_address(gethostbyname(data.address))
                             except herror:
                                 pass
+                            except ValueError:
+                                pass
                         # Set host name
                         host.names = [HiveLibrary.Host.Name(hostname=data.address)]
 
